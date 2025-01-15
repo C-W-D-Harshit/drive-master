@@ -119,7 +119,7 @@ export default function Header() {
         </CommandList>
       </CommandDialog>
 
-      <div className="flex items-center gap-2">
+      <div className="flex items-center">
         <Button variant="ghost" size="icon" className="rounded-full">
           <BellIcon />
         </Button>
@@ -128,7 +128,7 @@ export default function Header() {
             <SettingsIcon />
           </Button>
         </Link>
-        <Avatar>
+        <Avatar className="ml-2">
           <AvatarImage src="https://github.com/shadcn.png" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
